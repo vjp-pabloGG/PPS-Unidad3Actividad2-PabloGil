@@ -10,6 +10,13 @@ Tenemos como objetivo:
 ## ACTIVIDADES A REALIZAR
 - Busca información de:
 	- Como podemos obtener información pública con protocolo whois, web DoaminTools y DSNrecon.
+
+	WHOIS: Es un protocolo que permite consultar la información registrada de un dominio o dirección IP, incluyendo datos del registrante, fechas de creación y expiración, entre otros. Puedes utilizar servicios en línea como 	el de ICANN para realizar estas consultas. ​
+
+	DomainTools: Ofrece servicios avanzados de búsqueda WHOIS, proporcionando detalles sobre la propiedad de dominios, historial de direcciones IP, ranking, tráfico y más.
+
+	DNSrecon: Es una herramienta utilizada para recopilar información DNS, como registros de zona, transferencias y otros datos relacionados con un dominio.​
+
 	- Cómo podemos utilizar Nmap y nikto,   para buscar equipos, puertos abiertos, servicios, vulnerabilidades.
 	- Cómo utilizar Wfuzz, Dirb para localizar recursos web en servidores.
 	- Que scripts que podemos utilizar con Nmap para la búsqueda de vulnerabilidades.
