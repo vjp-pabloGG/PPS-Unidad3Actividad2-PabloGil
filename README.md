@@ -1,5 +1,4 @@
-
-# PPS-Unidad3Actividad2-JoseMi-
+# PPS-Unidad3Actividad2-PabloGil
 Unidad 3 - Actividad 2. Detección de equipos, puertos, servicios,vulnerabilidades.
 
 Tenemos como objetivo:
