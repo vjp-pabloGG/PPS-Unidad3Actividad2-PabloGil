@@ -43,7 +43,7 @@ Tenemos como objetivo:
 
 	### Nikto
 
-	## Nikto: Nikto es una herramienta para escanear servidores web en busca de vulnerabilidades, configuraciones incorrectas y otros posibles problemas de seguridad. Un ejemplo 		básico de su uso sería:
+	Nikto: Nikto es una herramienta para escanear servidores web en busca de vulnerabilidades, configuraciones incorrectas y otros posibles problemas de seguridad. Un ejemplo 		básico de su uso sería:
 
 	- Escanear un servidor web:
 
