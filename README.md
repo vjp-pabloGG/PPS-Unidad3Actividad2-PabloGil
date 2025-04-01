@@ -56,17 +56,38 @@ Tenemos como objetivo:
 	Wfuzz es una herramienta de fuzzing que se utiliza para descubrir recursos web ocultos (directorios, archivos, etc.). Aquí te dejo algunos ejemplos de cómo usarla:
 
   	**Fuzzing directorios y archivos en un servidor web:**
-  	```bash
+  	```
   	wfuzz -c -w /path/to/wordlist.txt -u http://192.168.1.5/FUZZ
+   	```
 
-	- Que scripts que podemos utilizar con Nmap para la búsqueda de vulnerabilidades.
-	- Cómo podemos buscar información de explotación de vulnerabilidades con searchsploit
-- Instala en tu navegador la extensión de Shodan y muestra la información que tenemos tanto de ip, como de dominio del sitio http://iesvalledeljerteplasencia.es
-![](images/1.JPG)
+	## 3.Que scripts que podemos utilizar con Nmap para la búsqueda de vulnerabilidades.
 
-![](images/2.JPG)
+	http-vuln-cve2014-3704: Busca la vulnerabilidad en Drupal conocida como CVE-2014-3704, que permite la ejecución remota de código.
 
-![](images/3.JPG)
+	smb-vuln-ms17-010: Detecta la vulnerabilidad EternalBlue (CVE-2017-0144) en el protocolo SMB, que fue aprovechada por el ransomware WannaCry.
+
+	ssl-heartbleed: Detecta la vulnerabilidad Heartbleed (CVE-2014-0160) en las implementaciones de OpenSSL.
+
+	ftp-vsftpd-backdoor: Detecta si un servidor FTP vsftpd tiene una puerta trasera, conocida por la CVE-2011-2523.
+   
+	## 4.Cómo podemos buscar información de explotación de vulnerabilidades con searchsploit
+
+	Para buscar un exploit relacionado con una vulnerabilidad específica, puedes usar el siguiente comando:
+
+- searchsploit <término de búsqueda>
+
+	Por ejemplo, si estás buscando un exploit para la vulnerabilidad Heartbleed, puedes usar:
+
+- searchsploit heartbleed
+	
+	## 5. Instala en tu navegador la extensión de Shodan y muestra la información que tenemos tanto de ip, como de dominio del sitio http://iesvalledeljerteplasencia.
+ 
+	![](images/1.JPG)
+
+	![](images/2.JPG)
+
+	![](images/3.JPG)
+
 - Sobre la red del laboratorio PPS con kali, bWAPP, Multidillae y DVWA:<
 	- Ayudándote del fichero docker-compose localiza las diferentes máquinas y puertos que deberían de tener abiertos.
 	- Identifica los equipos de la Red con Nmap.
