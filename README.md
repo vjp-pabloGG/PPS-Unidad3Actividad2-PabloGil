@@ -61,7 +61,12 @@ Tenemos como objetivo:
 
 	- Que scripts que podemos utilizar con Nmap para la búsqueda de vulnerabilidades.
 	- Cómo podemos buscar información de explotación de vulnerabilidades con searchsploit
-- Instala en tu navegador la extensión de Shodan y muestra la información que tenemos tanto de ip, como de dominio del sitio http://iesvalledeljerteplasencia.es 
+- Instala en tu navegador la extensión de Shodan y muestra la información que tenemos tanto de ip, como de dominio del sitio http://iesvalledeljerteplasencia.es
+![](images/1.JPG)
+
+![](images/2.JPG)
+
+![](images/3.JPG)
 - Sobre la red del laboratorio PPS con kali, bWAPP, Multidillae y DVWA:<
 	- Ayudándote del fichero docker-compose localiza las diferentes máquinas y puertos que deberían de tener abiertos.
 	- Identifica los equipos de la Red con Nmap.
