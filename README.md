@@ -120,6 +120,7 @@ Tenemos como objetivo:
 	- Utiliza el comando searchsploit para buscar información de explotación de vulnerabilidades presentes en linux con kernel 5
 
    ![](images/4.png)
+  
 ---	
 ## ENTREGA
 
